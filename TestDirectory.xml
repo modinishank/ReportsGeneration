@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test">
+	<test name="Home Page">
+		<classes>
+			<class name="webTest.VerifyHomePage" />
+		</classes>
+	</test>
+	<test name="Add Guest Validation">
+		<classes>
+			<class name="webTest.AddGuestPageValidation" />
+		</classes>
+	</test>
+	<test name="Add Guest Details">
+		<classes>
+			<class name="webTest.AddGuestWithValidData" />
+		</classes>
+	</test>
+	<test name="Check Guest Validation">
+		<classes>
+			<class name="webTest.CheckGuestWithNoData" />
+		</classes>
+	</test>
+		<test name="Check Guest With Valid Data">
+		<classes>
+			<class name="webTest.CheckGuestWithValidData" />
+		</classes>
+	</test>
+</suite>

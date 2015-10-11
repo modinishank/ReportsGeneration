@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test]">
+  <test name="Smoke Testcases(failed)" junit="true">
+    <classes>
+      <class name="webTest.CheckGuestWithValidData">
+        <methods>
+          <include name="testCheckGuestWithValidData"/>
+        </methods>
+      </class> <!-- webTest.CheckGuestWithValidData -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->
