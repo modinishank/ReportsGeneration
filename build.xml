@@ -91,7 +91,7 @@
 
 	<target name="sendMail">
 	<zip destfile="${basedir}/testng-xslt.zip" basedir="${basedir}/testng-xslt" />
-	<mail tolist="nishank_modi@yahoo.ca" from="Nishank.D.Modi@gmail.com" subject="Automation Test" mailhost="smtp.gmail.com" mailport="465" ssl="true" user="Nishank.D.Modi@gmail.com" password="28Feb@1989">
+	<mail tolist="nishank_modi@yahoo.ca" from="Nishank.D.Modi@gmail.com" subject="Automation Test" mailhost="smtp.gmail.com" mailport="465" ssl="true" user="Nishank.D.Modi@gmail.com" password="">
 	
 	<attachments>
 	<fileset dir="${basedir}">
